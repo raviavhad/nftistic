@@ -1,6 +1,7 @@
 ## Inspiration
 
-##**Covid Certificate for Junior Navigators**
+**Covid Certificate for Junior Navigators**
+
 _Managing Vaccination certificates with  High Performance Blockchain (HPB) chain protocols_
 
 Education institutes are on their way to re-opening for students. In face as I write this, many schools in my city at Pune (MH) has opened the schools this week.
