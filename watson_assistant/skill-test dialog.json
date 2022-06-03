@@ -1,0 +1,3705 @@
+{
+  "intents": [
+    {
+      "intent": "student_query",
+      "examples": [
+        {
+          "text": "I have a query in Chemistry for Anand Sir."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "how_many_chapters_mid_term",
+      "examples": [
+        {
+          "text": "How many chapters we need to cover for the Mid Term exam?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Can I use another language?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "number_of_uniformed",
+      "examples": [
+        {
+          "text": "How many are not in Uniform?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Customer_Care_User_Profile",
+      "examples": [
+        {
+          "text": "I want to change my home address in payment associated with my account, what steps"
+        },
+        {
+          "text": "Delete a number on my account"
+        },
+        {
+          "text": "Change mailing address"
+        },
+        {
+          "text": "I would like to update the email for my online account"
+        },
+        {
+          "text": "Can you help me change the contact email for my account?"
+        },
+        {
+          "text": "There is a typo in my listed email address, I need to fix it"
+        },
+        {
+          "text": "I got a new number, help me edit my account"
+        },
+        {
+          "text": "Could you change the phone number in my profile?"
+        },
+        {
+          "text": "I would like to change my contact information. can this be done online or do I have to come in?"
+        },
+        {
+          "text": "Can you please make changes in my account regarding my phone contact information?"
+        },
+        {
+          "text": "I wish to amend my email address please"
+        },
+        {
+          "text": "I need to update the phone number that you have listed as my contact phone number."
+        },
+        {
+          "text": "I need to update the email on my account"
+        },
+        {
+          "text": "I moved and have a new landline number. where do I go to update my contact information?"
+        },
+        {
+          "text": "I have a new email account and would like to change my primary contact email. how do I do this?"
+        },
+        {
+          "text": "I'm trying to change the email address associated with my account but it keeps giving me an error message can I do it with you?"
+        },
+        {
+          "text": "I will be moving next month. when do I need to give you my new address?"
+        },
+        {
+          "text": "I need to change my contact information."
+        },
+        {
+          "text": "Can I set another email address for my account?"
+        },
+        {
+          "text": "It seems like you have my old contact phone number on file, so I would like to have it updated, with your help."
+        }
+      ],
+      "description": "Change user's information on their account."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "I don't get it"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "I m not yet convinced"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "Customer_Care_Profile_Security_Questions",
+      "examples": [
+        {
+          "text": "Security verification question"
+        },
+        {
+          "text": "Security question answers"
+        },
+        {
+          "text": "Can I change the saved security questions I use when accessing my account via the phone?"
+        },
+        {
+          "text": "My email may have been hacked so I'm changing all my passwords and security questions can you change the ones I use for talking to customer support?"
+        },
+        {
+          "text": "I would like to change the security question used to access my account. could you please explain the procedure."
+        },
+        {
+          "text": "I want to know my security question when I'm dealing with customer service representative."
+        },
+        {
+          "text": "I have a feeling that default security questions for accessing my account are too generic and weak. is there a way to have them changed?"
+        },
+        {
+          "text": "How can I set up a phone security question?"
+        },
+        {
+          "text": "Can I reset my online security answer?"
+        },
+        {
+          "text": "Can you reset my security question?"
+        },
+        {
+          "text": "Help me with security questions"
+        },
+        {
+          "text": "Hi I want to know if I can change my security settings for talking to customer services over the phone?"
+        },
+        {
+          "text": "Why do I need to answer security questions when I speak to a representative on the phone?"
+        },
+        {
+          "text": "When I talk to a customer rep, what security questions can I use?"
+        },
+        {
+          "text": "What are my profile questions?"
+        },
+        {
+          "text": "It has been a while since I updated my online security questions. can you give me directions on how I can edit my account to create better, more recent and more secure questions?"
+        },
+        {
+          "text": "I need to change my questions to get in"
+        },
+        {
+          "text": "I have forgotten my phone security questions"
+        },
+        {
+          "text": "Update security questions"
+        },
+        {
+          "text": "Is it possible to change the security questions I use to access my account when I call you?"
+        }
+      ],
+      "description": "Review or change user's security questions."
+    },
+    {
+      "intent": "people_inside_campus",
+      "examples": [
+        {
+          "text": "How many people are inside our campus?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Customer_Care_Store_Hours",
+      "examples": [
+        {
+          "text": "Does the store in the city center opens till 8pm on weekends?"
+        },
+        {
+          "text": "Are you open on sundays, and if so what are the hours?"
+        },
+        {
+          "text": "How long are you open?"
+        },
+        {
+          "text": "Is the branch open now?"
+        },
+        {
+          "text": "What are the business hours of the store nearest to me?"
+        },
+        {
+          "text": "What are the saturday opening times for the local store?"
+        },
+        {
+          "text": "What are the hours of operation?"
+        },
+        {
+          "text": "At what hour can I swing by?"
+        },
+        {
+          "text": "What are your hous?"
+        },
+        {
+          "text": "What is the opening time for the washington store?"
+        },
+        {
+          "text": "What time are you closing today?"
+        },
+        {
+          "text": "What time does the central manchester store shut on a saturday?"
+        },
+        {
+          "text": "What time do stores close?"
+        },
+        {
+          "text": "Are you open during thanksgiving?"
+        },
+        {
+          "text": "What time is your store open on saturday?"
+        },
+        {
+          "text": "Are you open on bank holidays?"
+        },
+        {
+          "text": "Can you tell me how late the stores are open till?"
+        },
+        {
+          "text": "How early do you open?"
+        },
+        {
+          "text": "What are ur opening hours?"
+        },
+        {
+          "text": "Are the stores open early?"
+        }
+      ],
+      "description": "Find business hours."
+    },
+    {
+      "intent": "Customer_Care_Profile_Password",
+      "examples": [
+        {
+          "text": "Reset password"
+        },
+        {
+          "text": "Wanna change pass"
+        },
+        {
+          "text": "What are the rules for a valid password?"
+        },
+        {
+          "text": "Can you assist me with card code change?"
+        },
+        {
+          "text": "How to renew pin of credit card?"
+        },
+        {
+          "text": "How do I get a new 4-digit code?"
+        },
+        {
+          "text": "What is the pin that is used to speak to a representative?"
+        },
+        {
+          "text": "What password do I use when chatting with an agent?"
+        },
+        {
+          "text": "What is the policy for revising my current pin number?"
+        },
+        {
+          "text": "My password has stopped working"
+        },
+        {
+          "text": "Locate pin"
+        },
+        {
+          "text": "I want to create new code for my credit card"
+        },
+        {
+          "text": "Where can I find information about changing my card pin?"
+        },
+        {
+          "text": "I have had the same pin used to contact telephone customer support for a long time and would like to change it. could you please help me to set this up."
+        },
+        {
+          "text": "I have a pw issue"
+        },
+        {
+          "text": "I forgot my password"
+        },
+        {
+          "text": "I don't remember my debit card pin. how do I recover it?"
+        },
+        {
+          "text": "I need to talk to customer service, but I've lost my password. can you help me?"
+        },
+        {
+          "text": "Tell me the steps to change the pin on my credit card"
+        },
+        {
+          "text": "How do I find out the pin I need to use speak to someone on the phone?"
+        }
+      ],
+      "description": "Retrieve or change user's password."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "I will be back"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "social_media_post",
+      "examples": [
+        {
+          "text": "Post an Update on Respond to COVID-19 pandemic that Institute will remain closed for next 3 days, that is till 9th May ‘20."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "zonal_breaches",
+      "examples": [
+        {
+          "text": "How many zonal breaches happened today?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "No. By"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You did not understand what I asked"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "Reserve_a_car",
+      "examples": [
+        {
+          "text": "Get me some wheels"
+        },
+        {
+          "text": "I'd like to rent  a car"
+        },
+        {
+          "text": "Reserve a car"
+        },
+        {
+          "text": "I need a car"
+        },
+        {
+          "text": "Can you help me pick a car"
+        },
+        {
+          "text": "rent a car"
+        }
+      ]
+    },
+    {
+      "intent": "Customer_Care_Redeem_Points",
+      "examples": [
+        {
+          "text": "Apply loyalty credit"
+        },
+        {
+          "text": "I want a reward by using my points."
+        },
+        {
+          "text": "Redeem reward points?"
+        },
+        {
+          "text": "Use mileage"
+        },
+        {
+          "text": "Use rewards towards my bill"
+        },
+        {
+          "text": "What is the procedure for redeeming my mileage?"
+        },
+        {
+          "text": "What is the process of using my credits?"
+        },
+        {
+          "text": "Cash mileage"
+        },
+        {
+          "text": "How do I redeem bonus points?"
+        },
+        {
+          "text": "I have outstanding credit,please apply the loyalty points"
+        },
+        {
+          "text": "How do I earn rewards for my points balance?"
+        },
+        {
+          "text": "Shop bonus points?"
+        },
+        {
+          "text": "Pay balance with points"
+        },
+        {
+          "text": "May I gain rewards from the current loyalty points?"
+        },
+        {
+          "text": "How can I use my miles?"
+        },
+        {
+          "text": "I would like to know how to get rewards by using my credit card loyalty"
+        },
+        {
+          "text": "I wish to go about caching in my points for a purchase,can you show me how?"
+        },
+        {
+          "text": "How can I exchange my points for something?"
+        },
+        {
+          "text": "I want rewards with my points"
+        },
+        {
+          "text": "I want to pay points for an incentive"
+        }
+      ],
+      "description": "Redeem points to make a purchase."
+    },
+    {
+      "intent": "Customer_Care_Authorized_User",
+      "examples": [
+        {
+          "text": "Can you help me add another user to this account?"
+        },
+        {
+          "text": "Is it possible to add a user that is allowed to do change everything but cannot anything on the financial part?"
+        },
+        {
+          "text": "Add new user please"
+        },
+        {
+          "text": "I want to add my wife to the account"
+        },
+        {
+          "text": "Hi, how can I add a user so he can have all the access to my account?"
+        },
+        {
+          "text": "Please update my account to allow my spouse to access the account?"
+        },
+        {
+          "text": "I want to add someone who can access my account."
+        },
+        {
+          "text": "I would like to add my wife to my account with access and management privileges"
+        },
+        {
+          "text": "I would like to add an authorized user to my account."
+        },
+        {
+          "text": "I need to add someone to my account settings."
+        },
+        {
+          "text": "I want to add a new user who can make changes to and use the account, while I retain sole ownership?"
+        },
+        {
+          "text": "I want to add a secondary user to my account"
+        },
+        {
+          "text": "I want to add my roommate to my plan, but keep sending the bill to me. can I do that here?"
+        },
+        {
+          "text": "I would like to add someone to my account who will be authorized to access the account and make changes."
+        },
+        {
+          "text": "I'd like to add a person to my billing account"
+        },
+        {
+          "text": "Can I add another user?"
+        },
+        {
+          "text": "Add user"
+        },
+        {
+          "text": "I want to authorize my spouse to be able to make changes in my account, but not correlated with any financial or ownership responsibilities."
+        },
+        {
+          "text": "I would like to add my son to my account. I want him to be able to access the account and to make any changes he needs. can you help me with this?"
+        },
+        {
+          "text": "Can I add another person to have authority over my account?"
+        }
+      ],
+      "description": "Change who has access to an account."
+    },
+    {
+      "intent": "Customer_Care_Program_Inquiry",
+      "examples": [
+        {
+          "text": "Reward points backdated?"
+        },
+        {
+          "text": "Do I get anything for buying a lot?"
+        },
+        {
+          "text": "Is there a customer loyalty program of some sort available at the moment?"
+        },
+        {
+          "text": "Is there a program that rewards me for my use?"
+        },
+        {
+          "text": "Receive credits buys?"
+        },
+        {
+          "text": "Loyalty rewards program?"
+        },
+        {
+          "text": "Is there a rewards system for customers?"
+        },
+        {
+          "text": "Is there a bonus group offered?"
+        },
+        {
+          "text": "Do you have a points program?"
+        },
+        {
+          "text": "Can I get points for stuff I bought?"
+        },
+        {
+          "text": "Are pre-purchased items eligible for rewards?"
+        },
+        {
+          "text": "Is it possible to obtain points for buys I have made in the past?"
+        },
+        {
+          "text": "Can I get points on transactions I've already made?"
+        },
+        {
+          "text": "Reward scheme?"
+        },
+        {
+          "text": "Rewards frequent purchasing?"
+        },
+        {
+          "text": "Frequent purchaser benefits?"
+        },
+        {
+          "text": "If I purchase frequently will I get benefits?"
+        },
+        {
+          "text": "Are past purchases rewarded?"
+        },
+        {
+          "text": "Can I receive loyalty credit for previous acquisitions?"
+        },
+        {
+          "text": "What about your loyalty program?"
+        }
+      ],
+      "description": "Learn about customer loyalty programs."
+    },
+    {
+      "intent": "security_guards_status",
+      "examples": [
+        {
+          "text": "Are all the security guards present today?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Customer_Care_Open_Account",
+      "examples": [
+        {
+          "text": "Where do I find guidance on signing up?"
+        },
+        {
+          "text": "Please tell me how to register as one of your members."
+        },
+        {
+          "text": "Make account"
+        },
+        {
+          "text": "Where is the sign in page?"
+        },
+        {
+          "text": "How do I become a customer?"
+        },
+        {
+          "text": "Where do I register for this?"
+        },
+        {
+          "text": "Where to login for the first time?"
+        },
+        {
+          "text": "What is the process to making an account?"
+        },
+        {
+          "text": "What is required to get signed up here?"
+        },
+        {
+          "text": "What is the log in process for new users?"
+        },
+        {
+          "text": "Where can I register?"
+        },
+        {
+          "text": "I'd like to register"
+        },
+        {
+          "text": "Can someone new be able to login?"
+        },
+        {
+          "text": "Can you show me where to register for the program?"
+        },
+        {
+          "text": "Could you explain how to create a fresh account?"
+        },
+        {
+          "text": "Go joining here?"
+        },
+        {
+          "text": "How can I register over here?"
+        },
+        {
+          "text": "How do I login?"
+        },
+        {
+          "text": "What do I need to do to start an account with your company?"
+        },
+        {
+          "text": "Where does a first time visitor sign up?"
+        }
+      ],
+      "description": "Open an account."
+    },
+    {
+      "intent": "number_students_school",
+      "examples": [
+        {
+          "text": "Please check how many students are available in school today?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Are you still around?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "principal_appointment",
+      "examples": [
+        {
+          "text": "Can I have an appointment with the Principal anytime next week?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Customer_Care_Store_Location",
+      "examples": [
+        {
+          "text": "Where is your office?"
+        },
+        {
+          "text": "I'd like to go to a store"
+        },
+        {
+          "text": "Go to your company"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "What is the closest store to my address?"
+        },
+        {
+          "text": "Is there any shopping mall around me?"
+        },
+        {
+          "text": "What is the nearest branch?"
+        },
+        {
+          "text": "Find store"
+        },
+        {
+          "text": "Where is?"
+        },
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "Where are the store locations closest to davis city hall?"
+        },
+        {
+          "text": "What is the store near my zip code?"
+        },
+        {
+          "text": "Can you help me find locations in the general area of downtown baltimore?"
+        },
+        {
+          "text": "What is the closest pharmacy?"
+        },
+        {
+          "text": "Show me nearest service center"
+        },
+        {
+          "text": "Restuarants nearby please"
+        },
+        {
+          "text": "Can you tell me about physical locations you have in new jersey?"
+        },
+        {
+          "text": "I want to know about a store"
+        },
+        {
+          "text": "I need help with find a store"
+        },
+        {
+          "text": "Do you have an office in denver?"
+        }
+      ],
+      "description": "Locate a physical store location or an address."
+    },
+    {
+      "intent": "Customer_Care_Contact_Us",
+      "examples": [
+        {
+          "text": "What is the closest store's phone number?"
+        },
+        {
+          "text": "Where can I reach the company personally?"
+        },
+        {
+          "text": "What is you email?"
+        },
+        {
+          "text": "Can I contact the business by post?"
+        },
+        {
+          "text": "What is the phone number to call to order new line of service?"
+        },
+        {
+          "text": "Tell me the number to your general department"
+        },
+        {
+          "text": "Can I text you a question?"
+        },
+        {
+          "text": "Need your phone number"
+        },
+        {
+          "text": "I would like to speak to customer service."
+        },
+        {
+          "text": "Is there a phone number to your shop at fort worth tx?"
+        },
+        {
+          "text": "I want to know number to the store closest to me"
+        },
+        {
+          "text": "I need someone to call me. can you please arrange that!?"
+        },
+        {
+          "text": "How do I best contact you when there has been a problem with my bill?"
+        },
+        {
+          "text": "How can I contact your business?"
+        },
+        {
+          "text": "Can you give me the number to the general manager?"
+        },
+        {
+          "text": "Who can I call?"
+        },
+        {
+          "text": "Which is the number of the main office here in los angeles?"
+        },
+        {
+          "text": "What is the customer number?"
+        },
+        {
+          "text": "Can I get some more information?"
+        },
+        {
+          "text": "Hi can you let me have the telephone number of my local store please?"
+        }
+      ],
+      "description": "Find basic contact information."
+    },
+    {
+      "intent": "instant_communication",
+      "examples": [
+        {
+          "text": "Send instant communications to all parents that there is holiday tomorrow on reason of unexpected event inside premises."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sanitizer_status",
+      "examples": [
+        {
+          "text": "What is the Sanitizer status in school today?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Customer_Care_Loyalty_Status",
+      "examples": [
+        {
+          "text": "Customer loyalty status"
+        },
+        {
+          "text": "Points balance?"
+        },
+        {
+          "text": "How can I see the points on my account?"
+        },
+        {
+          "text": "Points statement?"
+        },
+        {
+          "text": "View my reward status."
+        },
+        {
+          "text": "See available rewards?"
+        },
+        {
+          "text": "Can you tell me the status of my reward?"
+        },
+        {
+          "text": "What is my frequent buyer credit accumulation?"
+        },
+        {
+          "text": "What is my reward tier right now?"
+        },
+        {
+          "text": "What is the new point total?"
+        },
+        {
+          "text": "What's the number of mileage that I have on my account?"
+        },
+        {
+          "text": "Where do I learn my frequent purchaser tier?"
+        },
+        {
+          "text": "Where is my points shown at?"
+        },
+        {
+          "text": "You can show to me my points?"
+        },
+        {
+          "text": "Check rewards"
+        },
+        {
+          "text": "How many miles do I have?"
+        },
+        {
+          "text": "How many loyalty bonus points do I have?"
+        },
+        {
+          "text": "How do I verify my rewards balance?"
+        },
+        {
+          "text": "Please display my loyalty credits."
+        },
+        {
+          "text": "Please inform me of my current status?"
+        }
+      ],
+      "description": "Inquire about customer loyalty program status."
+    },
+    {
+      "intent": "generator_status",
+      "examples": [
+        {
+          "text": "Is the generator working normal?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Cancel"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "Customer_Care_Employment_Inquiry",
+      "examples": [
+        {
+          "text": "Are there any job vacancies currently open at your company?"
+        },
+        {
+          "text": "Are you hiring at the moment?"
+        },
+        {
+          "text": "What positions do you have available?"
+        },
+        {
+          "text": "Can I join you guys?"
+        },
+        {
+          "text": "Halp me I need work"
+        },
+        {
+          "text": "Well I m asking what level of the marketing position your company is looking for"
+        },
+        {
+          "text": "I am looking for a job and would like to know if you have anything available.."
+        },
+        {
+          "text": "Search job"
+        },
+        {
+          "text": "What are the job openings available with the company?"
+        },
+        {
+          "text": "What's the process for job application?"
+        },
+        {
+          "text": "What employment opportunities are currently available?"
+        },
+        {
+          "text": "Hire me please"
+        },
+        {
+          "text": "Where is your careers page?"
+        },
+        {
+          "text": "What are the jobs you are hiring for?"
+        },
+        {
+          "text": "Is there any current employment opportunities?"
+        },
+        {
+          "text": "What jobs are available that are hiring for now?"
+        },
+        {
+          "text": "I need to find some work"
+        },
+        {
+          "text": "What kind of jobs do you have?"
+        },
+        {
+          "text": "What is your jobs web site?"
+        },
+        {
+          "text": "How would I go about joining your company?"
+        }
+      ],
+      "description": "Find job opportunities."
+    },
+    {
+      "intent": "admission_form",
+      "examples": [
+        {
+          "text": "Where can I get the admission form for standard 5."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Hate you"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "Customer_Care_Notification_Preferences",
+      "examples": [
+        {
+          "text": "How can I modify notification alerts?"
+        },
+        {
+          "text": "I want my bank messages to notify me on emails as well"
+        },
+        {
+          "text": "I request to get alerts via email"
+        },
+        {
+          "text": "How to switch over from sms to email delivery alert?"
+        },
+        {
+          "text": "How to customize notifications that I am receiving?"
+        },
+        {
+          "text": "How do I change credit card transaction alerts?"
+        },
+        {
+          "text": "How can I update my delivery methods?"
+        },
+        {
+          "text": "How can I edit delivery methods to new one?"
+        },
+        {
+          "text": "How can I change delivery method?"
+        },
+        {
+          "text": "Can you send alert on my whatsapp?"
+        },
+        {
+          "text": "How to change my notification preferences?"
+        },
+        {
+          "text": "Tell me process to change alerts method"
+        },
+        {
+          "text": "Can you help me with changing delivery method?"
+        },
+        {
+          "text": "Changing my notification preferences"
+        },
+        {
+          "text": "Can I use another way of receiving alerts by editing existing one?"
+        },
+        {
+          "text": "I need to change my current alert method to something else"
+        },
+        {
+          "text": "Change notifications to sms"
+        },
+        {
+          "text": "Can you send text notifications to additional mobile number?"
+        },
+        {
+          "text": "Notifications are to be received on sms"
+        },
+        {
+          "text": "I want to stop getting emails every time my card gets swiped"
+        }
+      ],
+      "description": "Manage user's notifications."
+    },
+    {
+      "intent": "number_students_class_today",
+      "examples": [
+        {
+          "text": "How many students were present in my todays class?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "send_communication_parent",
+      "examples": [
+        {
+          "text": "Send communication to parents on safety of students and way ahead during lockdown."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Customer_Care_Report_Fraudulent_Use",
+      "examples": [
+        {
+          "text": "Is there a way to alert you to a suspicious login?"
+        },
+        {
+          "text": "I'm worried that my savings account might have been compromised."
+        },
+        {
+          "text": "How would I go about telling someone of unwanted usage of my account?"
+        },
+        {
+          "text": "How to register fraud for savings or checking account?"
+        },
+        {
+          "text": "How can I tell you if there is a suspect in the record?"
+        },
+        {
+          "text": "How do I notify you that my account has been accessed without my permission?"
+        },
+        {
+          "text": "Is there contact information to report unauthorized logins?"
+        },
+        {
+          "text": "My account is been misused. can you assist me with this"
+        },
+        {
+          "text": "How do I respond to texts that I do not think are true?"
+        },
+        {
+          "text": "I want to make you aware of a case of fake login"
+        },
+        {
+          "text": "Frauded login"
+        },
+        {
+          "text": "Someone has opened an account in my name"
+        },
+        {
+          "text": "How to inform on dubious proceedings?"
+        },
+        {
+          "text": "Strange activity"
+        },
+        {
+          "text": "Want to report data breach"
+        },
+        {
+          "text": "What should I do with an unknown visitor?"
+        },
+        {
+          "text": "What should I do to report a scam? what can I do to report unauthorized log in?"
+        },
+        {
+          "text": "Who do I tell about suspect activity?"
+        },
+        {
+          "text": "Where to inform on a skeptical profile login?"
+        },
+        {
+          "text": "How can I report non authorized user?"
+        }
+      ],
+      "description": "Report the fraudulent use of an account."
+    },
+    {
+      "intent": "Customer_Care_Transfer_Points",
+      "examples": [
+        {
+          "text": "I need to share points between two accounts"
+        },
+        {
+          "text": "How do old account points transfer to new account?"
+        },
+        {
+          "text": "I have a new account and want my points moved there"
+        },
+        {
+          "text": "How can I move points from one account to another?"
+        },
+        {
+          "text": "Can I transfer my minutes to my wife's phone?"
+        },
+        {
+          "text": "Is it possible to send my credits to a buddy?"
+        },
+        {
+          "text": "Is there any way I can move points balance to a new account?"
+        },
+        {
+          "text": "Can you tell me how I can place my prior account points into my new account?"
+        },
+        {
+          "text": "I would like to send my credits to a relative"
+        },
+        {
+          "text": "Transfer mileage"
+        },
+        {
+          "text": "What can be done to to send points?"
+        },
+        {
+          "text": "Can you carry my points over to other account?"
+        },
+        {
+          "text": "Can I have my points transferred to a different account please?"
+        },
+        {
+          "text": "Can I give my points for my friend?"
+        },
+        {
+          "text": "How to transfer points to a new account please?"
+        },
+        {
+          "text": "Can I transfer to another account my points?"
+        },
+        {
+          "text": "I'd like to transfer credits to a new account"
+        },
+        {
+          "text": "Could you move my points total please?"
+        },
+        {
+          "text": "Can I carry over my points?"
+        },
+        {
+          "text": "Am I able to move points?"
+        }
+      ],
+      "description": "Transfer points between accounts."
+    },
+    {
+      "intent": "Customer_Care_Products_Offered",
+      "examples": [
+        {
+          "text": "What products can I get from your company?"
+        },
+        {
+          "text": "What does your shop provide?"
+        },
+        {
+          "text": "New products"
+        },
+        {
+          "text": "Need to know what products you have"
+        },
+        {
+          "text": "Show me some cars"
+        },
+        {
+          "text": "What kind of products are available?"
+        },
+        {
+          "text": "I would like to know what I can buy"
+        },
+        {
+          "text": "Tell me about shoes"
+        },
+        {
+          "text": "What does your business sell?"
+        },
+        {
+          "text": "What are your business banking products?"
+        },
+        {
+          "text": "What potential products or services are available?"
+        },
+        {
+          "text": "What products do you offer in the company?"
+        },
+        {
+          "text": "What products are offered in the company?"
+        },
+        {
+          "text": "What product do you recommend for a tech consultant?"
+        },
+        {
+          "text": "What kinds of products do you sell?"
+        },
+        {
+          "text": "Catalogue look"
+        },
+        {
+          "text": "I need information on one of your products"
+        },
+        {
+          "text": "Items available?"
+        },
+        {
+          "text": "Items currently sold"
+        },
+        {
+          "text": "Show me retirement products"
+        }
+      ],
+      "description": "Find products that are available for purchase."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "Ok thank you"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "Customer_Care_Appointments",
+      "examples": [
+        {
+          "text": "Can I book an in person session to learn how to use my new phone at the store near my house?"
+        },
+        {
+          "text": "I want to talk in person with someone about my case"
+        },
+        {
+          "text": "How can I change the schedule?"
+        },
+        {
+          "text": "Set up an appt"
+        },
+        {
+          "text": "I prefer a face to face visit"
+        },
+        {
+          "text": "When can I meet with one of your employees at your store?"
+        },
+        {
+          "text": "I need to reschedule"
+        },
+        {
+          "text": "Store appointment"
+        },
+        {
+          "text": "What time can I meet the staff?"
+        },
+        {
+          "text": "I am due at a store tomorrow at 2pm and wish to change my appointment please?"
+        },
+        {
+          "text": "Want to change my visit"
+        },
+        {
+          "text": "Is it possible to set a date?"
+        },
+        {
+          "text": "I want to cancel the appointment that I have with the store"
+        },
+        {
+          "text": "Could you cancel the engagement I had tomorrow in my apartment?"
+        },
+        {
+          "text": "I would like to make an appointment to visit the nearest store to my location."
+        },
+        {
+          "text": "Make an appointment"
+        },
+        {
+          "text": "I would like to discuss my situation face to face"
+        },
+        {
+          "text": "Can someone support me at home?"
+        },
+        {
+          "text": "Can you explain me this in my house?"
+        },
+        {
+          "text": "Could I speak to someone in the store next tuesday?"
+        }
+      ],
+      "description": "Schedule or manage an in-store appointment."
+    },
+    {
+      "intent": "social_distancing_status",
+      "examples": [
+        {
+          "text": "Is everyone obeying Social Distancing inside campus?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "anything_else",
+      "examples": [
+        {
+          "text": "i dont know"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Let us talk about something else"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "How can you help?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "How do I use you?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "Customer_Care_Cancel_Account",
+      "examples": [
+        {
+          "text": "I would like to cancel my service, can you do that for me?"
+        },
+        {
+          "text": "Id like to cancel or stop my service from my account"
+        },
+        {
+          "text": "How do I cancel my phone service with your company?"
+        },
+        {
+          "text": "Cancel account"
+        },
+        {
+          "text": "I need to close my account at this time."
+        },
+        {
+          "text": "How do I close out my account?"
+        },
+        {
+          "text": "Can you please terminate this service?"
+        },
+        {
+          "text": "I want to disconnect my service"
+        },
+        {
+          "text": "My phone is broken so I am wondering if I could cancel my contract"
+        },
+        {
+          "text": "Cancel plan"
+        },
+        {
+          "text": "What is the procedure on canceling my account?"
+        },
+        {
+          "text": "What do I have to do to stop all my services with you and close my account?"
+        },
+        {
+          "text": "Terminate service"
+        },
+        {
+          "text": "Put an end to my account."
+        },
+        {
+          "text": "Please close my data card account"
+        },
+        {
+          "text": "I am not very happy with services rendered on your part and want my account closed."
+        },
+        {
+          "text": "Cancel service please"
+        },
+        {
+          "text": "I want to cancel."
+        },
+        {
+          "text": "I want to cancel my service"
+        },
+        {
+          "text": "I need help with cancellation"
+        }
+      ],
+      "description": "Cancel or close an account."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I talking to a robot?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Is this a computer?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "color-popular",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "white",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "silver",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "black",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grey",
+          "synonyms": [
+            "gray"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "red",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "blue",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "car-type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "minivan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "suv",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "midsize",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "full size",
+          "synonyms": [
+            "standard"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "economy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "compact",
+          "synonyms": [
+            "small"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sports",
+          "synonyms": [
+            "sporty",
+            "hot",
+            "fast",
+            "sports car"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "convertable",
+          "synonyms": []
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/saurabh.sinha%40infosys.com_dev/default/test.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "parent": "node_5_1589199834633",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1589199854040",
+      "previous_sibling": "response_3_1589199850532"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_16.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1589199834633",
+      "conditions": "$webhook_result_16",
+      "dialog_node": "response_3_1589199850532"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "No"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1588614470145",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1588669791383",
+      "previous_sibling": "response_4_1588669790483"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_1.message"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1588614470145",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_4_1588669790483"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_2_1588614041818",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1588673162171",
+      "previous_sibling": "response_9_1588673160961"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_4.message"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1588614041818",
+      "conditions": "$webhook_result_4",
+      "dialog_node": "response_9_1588673160961"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_1_1588705098811",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1588705127089",
+      "previous_sibling": "response_7_1588705123783"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_9.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588705098811",
+      "conditions": "$webhook_result_9",
+      "dialog_node": "response_7_1588705123783"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_3_1589199703699",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1589199724593",
+      "previous_sibling": "response_4_1589199720966"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_15.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1589199703699",
+      "conditions": "$webhook_result_15",
+      "dialog_node": "response_4_1589199720966"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_5_1588706033493",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1588706064119",
+      "previous_sibling": "response_2_1588706056922"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_11.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1588706033493",
+      "conditions": "$webhook_result_11",
+      "dialog_node": "response_2_1588706056922"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_1_1588706279533",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1588706311902",
+      "previous_sibling": "response_10_1588706306844"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_12.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588706279533",
+      "conditions": "",
+      "dialog_node": "response_10_1588706306844"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_2_1588705710528",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1588705774310",
+      "previous_sibling": "response_10_1588705769305"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_10.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1588705710528",
+      "conditions": "$webhook_result_10",
+      "dialog_node": "response_10_1588705769305"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1588614179352",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1588672971877",
+      "previous_sibling": "response_2_1588672970927"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_3.message"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1588614179352",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_2_1588672970927"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Welcome",
+      "metadata": {},
+      "variable": "$greeted",
+      "dialog_node": "slot_28_1530313135395"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "No"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1588614302850",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1588670409719",
+      "previous_sibling": "response_9_1588670407882"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_2.message"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1588614302850",
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_9_1588670407882"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_5_1589199303860",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1589199326995",
+      "previous_sibling": "response_5_1589199323744"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_14.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1589199303860",
+      "conditions": "$webhook_result_14",
+      "dialog_node": "response_5_1589199323744"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_5_1588674268132",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1588674289957",
+      "previous_sibling": "response_6_1588674286320"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_8.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1588674268132",
+      "conditions": "$webhook_result_8",
+      "dialog_node": "response_6_1588674286320"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_1_1589198827858",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1589198849012",
+      "previous_sibling": "response_8_1589198846029"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_13.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589198827858",
+      "conditions": "$webhook_result_13",
+      "dialog_node": "response_8_1589198846029"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Hello. This is Watson. What's  your name?"
+      },
+      "parent": "slot_28_1530313135395",
+      "event_name": "focus",
+      "dialog_node": "handler_30_1530313135395",
+      "previous_sibling": "handler_29_1530313135395"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_28_1530313135395",
+      "context": {
+        "greeted": "$greeted"
+      },
+      "metadata": {},
+      "conditions": "$greeted",
+      "event_name": "input",
+      "dialog_node": "handler_29_1530313135395"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_1_1588673809524",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1588673840064",
+      "previous_sibling": "response_2_1588673834096"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_6.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588673809524",
+      "conditions": "$webhook_result_6",
+      "dialog_node": "response_2_1588673834096"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_3_1588674143566",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1588674166827",
+      "previous_sibling": "response_10_1588674163712"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_7.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1588674143566",
+      "conditions": "$webhook_result_7",
+      "dialog_node": "response_10_1588674163712"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_5_1588673720134",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1588673759777",
+      "previous_sibling": "response_3_1588673756671"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_5.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1588673720134",
+      "conditions": "$webhook_result_5",
+      "dialog_node": "response_3_1588673756671"
+    },
+    {
+      "type": "standard",
+      "title": "sanitizer_status",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "sanitizer_status"
+          },
+          "result_variable": "webhook_result_16"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#sanitizer_status",
+      "dialog_node": "node_5_1589199834633",
+      "previous_sibling": "node_4_1588769837823"
+    },
+    {
+      "type": "standard",
+      "title": "social_distancing_status",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "social_distancing_status"
+          },
+          "result_variable": "webhook_result_15"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#social_distancing_status",
+      "dialog_node": "node_3_1589199703699",
+      "previous_sibling": "node_5_1589199834633"
+    },
+    {
+      "type": "standard",
+      "title": "number_of_security_guards_present",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "number_of_security_guards_present"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#security_guards_status",
+      "dialog_node": "node_1_1588614302850",
+      "previous_sibling": "node_1_1588614470145"
+    },
+    {
+      "type": "standard",
+      "title": "Start or Start Over",
+      "output": {
+        "text": {
+          "values": [
+            "Welcome to India International School! Hope you are doing well. How can we assist you today?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {},
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#Bot_Control_Start_Over",
+      "digress_in": "not_available",
+      "dialog_node": "Welcome",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1588614041818"
+    },
+    {
+      "type": "standard",
+      "title": "number_students_class_today",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "number_students_class_today"
+          },
+          "result_variable": "webhook_result_8"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#number_students_class_today",
+      "dialog_node": "node_5_1588674268132",
+      "previous_sibling": "node_1_1588705098811"
+    },
+    {
+      "type": "standard",
+      "title": "zonal_breahes",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "zonal_breaches"
+          },
+          "result_variable": "webhook_result_14"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#zonal_breaches",
+      "dialog_node": "node_5_1589199303860",
+      "previous_sibling": "node_3_1589199703699"
+    },
+    {
+      "type": "standard",
+      "title": "instant_communication",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "instant_communication"
+          },
+          "result_variable": "webhook_result_10"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#instant_communication",
+      "dialog_node": "node_2_1588705710528",
+      "previous_sibling": "node_5_1588706033493"
+    },
+    {
+      "type": "standard",
+      "title": "social_media_post",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "social_media_post"
+          },
+          "result_variable": "webhook_result_11"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#social_media_post",
+      "dialog_node": "node_5_1588706033493",
+      "previous_sibling": "node_1_1588706279533"
+    },
+    {
+      "type": "standard",
+      "title": "people_inside_campus",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "people_inside_campus"
+          },
+          "result_variable": "webhook_result_9"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#people_inside_campus",
+      "dialog_node": "node_1_1588705098811",
+      "previous_sibling": "node_2_1588705710528"
+    },
+    {
+      "type": "standard",
+      "title": "number_students_school",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "number_students_school"
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#number_students_school",
+      "dialog_node": "node_2_1588614041818",
+      "previous_sibling": "node_7_1588614179352"
+    },
+    {
+      "type": "standard",
+      "title": "Quit",
+      "output": {
+        "text": {
+          "values": [
+            "Thank you. Good bye."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "dialog_node": "node_46_1530315654027",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "number_of_uniformed",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "number_of_uniformed"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#number_of_uniformed",
+      "dialog_node": "node_7_1588614179352",
+      "previous_sibling": "node_1_1588614302850"
+    },
+    {
+      "type": "standard",
+      "title": "admission_form",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "admission_form"
+          },
+          "result_variable": "webhook_result_13"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#admission_form",
+      "dialog_node": "node_1_1589198827858",
+      "previous_sibling": "node_5_1589199303860"
+    },
+    {
+      "type": "standard",
+      "title": "principal_appointment",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "principal_appointment"
+          },
+          "result_variable": "webhook_result_7"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#principal_appointment",
+      "dialog_node": "node_3_1588674143566",
+      "previous_sibling": "node_5_1588674268132"
+    },
+    {
+      "type": "standard",
+      "title": "send_communciation_parent",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "send_communciation_parent"
+          },
+          "result_variable": "webhook_result_12"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#send_communication_parent",
+      "dialog_node": "node_1_1588706279533",
+      "previous_sibling": "node_1_1589198827858"
+    },
+    {
+      "type": "standard",
+      "title": "generator_status_today",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "generator_status_today"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#generator_status",
+      "dialog_node": "node_1_1588614470145",
+      "previous_sibling": "node_4_1588654183507"
+    },
+    {
+      "type": "standard",
+      "title": "student_query",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "student_query"
+          },
+          "result_variable": "webhook_result_5"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#student_query",
+      "dialog_node": "node_5_1588673720134",
+      "previous_sibling": "node_1_1588673809524"
+    },
+    {
+      "type": "standard",
+      "title": "mid_term_syllabus",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "mid_term_syllabus"
+          },
+          "result_variable": "webhook_result_6"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#how_many_chapters_mid_term",
+      "dialog_node": "node_1_1588673809524",
+      "previous_sibling": "node_3_1588674143566"
+    },
+    {
+      "type": "standard",
+      "title": "anything_else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I didn't understand!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#anything_else",
+      "dialog_node": "node_4_1588654183507",
+      "previous_sibling": "node_5_1588673720134"
+    },
+    {
+      "type": "standard",
+      "title": "welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to India International School! Hope you are doing well. How can we assist you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_4_1588769837823"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "name": "test",
+  "language": "en",
+  "description": "A demo chat to request a rental car"
+}
